@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 550px;
+    padding: 5px;
+   
+    
+   
+}
+
+
+.box{
+   
+    width: 650px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: rgb(182, 20, 300);
+  border-radius: 10px;
+ 
+  
+}
+
+
+
+.form-header{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+.box1 >h1{
+    text-shadow: 5px 5px 10px black;
+    padding: 10px;
+    color: white;
+}
+
+form{
+    background-color: rgb(251, 246, 246);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(58, 57, 57);
+   
+}
+
+.line{
+    height: 140px;
+    width: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+ 
+.form1{ 
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+#input-name{
+    width: 95%; 
+    padding: 5px 0px; 
+}
+
+#input-number{
+    padding: 5px 0px;
+}
+
+#input-addresh{
+    width: 95%; 
+    padding: 5px 0px; 
+    margin-bottom: 5px;
+}
+#visit{
+    padding: 5px 0px;
+    width: 46.80%;
+}
+
+#submit{
+    width: 95%;
+    padding: 5px 0px;
+    margin-top: 5px;
+    background-color: rgb(182, 20, 300);
+}
